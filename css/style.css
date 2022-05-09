@@ -15,24 +15,27 @@
 
 body{
     background-color: var(--light-gray);
-    padding: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
     font-family: var(--body-font);
 }
 
 .qrcard{
    max-width: 300px;
    margin: 0 auto;
-   padding: 0.5rem;
+   padding: 1rem;
    background: var(--white);
    text-align: center;
-   border-radius: 8px;
+   border-radius: 16px;
    box-shadow: 2px 3px 12px 5px var(--grayish-blue-transparent);
 }
 
 .qrcard__image{
     width: 100%;
     margin-bottom: 1rem;
-    border-radius: 4px;
+    border-radius: 12px;
 }
 
 .qrcard__text-header{
@@ -51,7 +54,7 @@ body{
 
 @media screen and (max-width: 444px) {
     body{
-        padding: 0.65rem;
+        padding: 0.5rem;
     }
 }
 
